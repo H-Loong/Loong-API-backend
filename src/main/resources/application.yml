@@ -1,0 +1,18 @@
+server:
+  port: 3300
+spring:
+  application:
+    name: Loong-API
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/loong_api
+    username: root
+    password: 123456
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除字段名
+      logic-delete-value: 1 # 逻辑已删除值
+      logic-not-delete-value: 0 # 逻辑未删除值
