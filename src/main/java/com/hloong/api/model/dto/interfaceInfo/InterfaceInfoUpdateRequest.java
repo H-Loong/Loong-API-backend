@@ -1,14 +1,18 @@
-package com.hloong.api.model.dto;
-
+package com.hloong.api.model.dto.interfaceInfo;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
-public class InterfaceInfoAddRequest implements Serializable {
+public class InterfaceInfoUpdateRequest implements Serializable {
 
-    private static final long serialVersionUID = -5285204334336838487L;
+    private static final long serialVersionUID = 7664681333270965935L;
+    /**
+     * 主键
+     */
+    private Long id;
+
     /**
      * 名称
      */
@@ -40,8 +44,12 @@ public class InterfaceInfoAddRequest implements Serializable {
     private String responseHeader;
 
     /**
+     * 接口状态（0-关闭，1-开启）
+     */
+    private Integer status;
+
+    /**
      * 请求类型
      */
     private String method;
-
 }

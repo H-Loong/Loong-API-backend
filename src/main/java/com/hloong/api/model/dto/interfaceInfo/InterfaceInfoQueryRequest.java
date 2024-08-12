@@ -1,4 +1,4 @@
-package com.hloong.api.model.dto;
+package com.hloong.api.model.dto.interfaceInfo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
