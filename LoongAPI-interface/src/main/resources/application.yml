@@ -5,5 +5,5 @@ server:
 
 loong-api:
   client:
-    access-key: cw3SS9QVmQ
-    secret-key: afk0fwaf68
+    access-key:
+    secret-key:
