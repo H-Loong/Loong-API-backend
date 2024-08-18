@@ -21,7 +21,7 @@ public class NameController {
 
     @PostMapping("/user")
     public String getUsernameByPost(@RequestBody User user){
-        return "POST 你的名字是：" + user.getName();
+        return "POST 你的名字是：" + user.getUsername();
     }
 
 }

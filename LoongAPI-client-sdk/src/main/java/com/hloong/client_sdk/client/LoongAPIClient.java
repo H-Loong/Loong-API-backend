@@ -14,7 +14,7 @@ import static com.hloong.client_sdk.utils.SignUtils.genSign;
 
 public class LoongAPIClient {
 
-    private static final String GATEWAY_HOST = "http://localhost:8080";
+    private static final String GATEWAY_HOST = "http://localhost:8081";
 
     private String accessKey;
 
