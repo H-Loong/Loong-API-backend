@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/LoongAPI-client-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-client-sdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LoongAPI/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

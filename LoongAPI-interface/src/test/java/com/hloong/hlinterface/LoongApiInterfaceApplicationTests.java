@@ -16,13 +16,14 @@ class LoongApiInterfaceApplicationTests {
 
     @Test
     void contextLoads() {
-        String name1 = loongAPIClient.getNameByGet("H-Loong");
-        User user = new User();
-        user.setName("h-Loong");
-        String name2 = loongAPIClient.getUsernameByPost(user);
-        System.out.println(name1);
-        System.out.println(name2);
-
+//        String name1 = loongAPIClient.getNameByGet("H-Loong");
+//        User user = new User();
+//        user.setUsername("h-Loong");
+//        String name2 = loongAPIClient.getUsernameByPost(user);
+//        System.out.println(name1);
+//        System.out.println(name2);
+//        String name3 = loongAPIClient.getPoisonousChickenSoup();
+//        System.out.println(name3);
     }
 
 }
